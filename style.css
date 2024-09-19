@@ -1,0 +1,51 @@
+body{
+    background-image: url(img/background.png);
+}
+
+#main{
+    width: 400px;
+    height: 700px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50px 200px 200px 100px 200px 200px 50px;
+    grid-template-rows: 50px 200px 100px 100px 100px 200px 50px;
+}
+
+.item1{
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+
+.item2{
+    grid-row: 2/3;
+    grid-column: 5/7;
+}
+
+.item3{
+    grid-row: 4/7;
+    grid-column: 5/7;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.dancing-script-h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: justify;
+  }
+  
