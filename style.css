@@ -1,8 +1,9 @@
 body{
     background-image: url(img/background.png);
+    display: flex !important;
 }
 
-#main{
+#mainBirthdayCard{
     width: 400px;
     height: 700px;
 }
@@ -47,5 +48,23 @@ h1 {
     font-weight: 500;
     font-style: normal;
     text-align: justify;
-  }
-  
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+#balloon{
+    width: 500px;
+    margin-top: 30px;
+}
+
+h2 {
+    border-style: solid;
+    border-width: medium;
+    border-radius: 12px;
+    margin-top: 50px;
+}
